@@ -4,8 +4,9 @@
     <string name="app_name">9wen</string>
     <string name="hello_world">Hello world!</string>
     <string name="welcome">欢迎来到9问社会化分享平台</string>
+    <string name="version_unknown">1.0</string>
     
-        <string name="version_unknown">1.0</string>
+    <string name="enter">进入</string>
 
     <!-- xlistview设置 -->
     <string name="xlistview_header_hint_normal">下拉刷新</string>

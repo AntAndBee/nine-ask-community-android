@@ -13,8 +13,6 @@ import java.util.Map;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
@@ -26,7 +24,6 @@ import com.newsagency.mobile.net.Net;
 import com.newsagency.mobile.net.Net.NetResponseListener;
 import com.world.wen.util.AppHelper;
 import com.world.wen.util.AppInfoUtil;
-import com.world.wen.util.ImageManager;
 import com.world.wen.util.SignUtil;
 import com.world.wen.util.UrlUtil;
 import com.world.wen.util.UrlUtil.UrlBean;
@@ -50,7 +47,7 @@ public abstract class BaseActivity extends FragmentActivity implements
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		net = new Net(this);
-		application = (Wen9Application) getApplication();
+	/*	application = (Wen9Application) getApplication();*/
 	}
 
 	public void post(String key, Object[] params, boolean isLoged, String Tag) {
@@ -225,8 +222,5 @@ public abstract class BaseActivity extends FragmentActivity implements
 			return "连接失败";
 		}
 		return "连接失败";
-	}
-
-	private void logOut() {
 	}
 }
