@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">9wen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welcome">欢迎来到9问社会化分享平台</string>
+    
+        <string name="version_unknown">1.0</string>
+
+    <!-- xlistview设置 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多内容</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <!-- 百度视频解码引擎 -->
+    <string name="baidu_player_loading">正在努力加载，请稍后..</string>
+    <string name="baidu_player_error">对不起，该视频无法播放</string>
+    <string name="baidu_player_no_network">当前没有可用网络，请检查网络连接</string>
+    <string name="baidu_player_use_mobile_network">使用蜂窝数据观看视频会产生高昂流量费，您确定要播放视频吗？</string>
+    <string name="baidu_player_caching">缓冲 </string>
+
+    <!-- fragment 标题 -->
+    <string name="fragment_collect">收藏 </string>
+    <string name="fragment_photo">多棱镜</string>
+    <string name="fragment_news">新闻片 </string>
+    <string name="fragment_event">大事件</string>
+    <string name="fragment_setting">设置</string>
+
+</resources>
